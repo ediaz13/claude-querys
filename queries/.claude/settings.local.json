@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node C:/projects/claude-course/claude-querys/queries/hooks/read_hook.js"
+            "command": "node ./hooks/read_hook.js"
           }
         ]
       },
@@ -15,7 +15,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node C:/projects/claude-course/claude-querys/queries/hooks/query_hook.js",
+            "command": "node $PWD/hooks/query_hook.js",
             "timeout": 300
           }
         ]
@@ -40,7 +40,7 @@
           },
           {
             "type": "command",
-            "command": "node C:/projects/claude-course/claude-querys/queries/hooks/tsc.js"
+            "command": "node $PWD/hooks/tsc.js"
           }
         ]
       },

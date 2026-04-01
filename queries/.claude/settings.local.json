@@ -2,11 +2,11 @@
   "hooks": {
     "PreToolUse": [
       {
-        "matcher": "",
+        "matcher": "Read|Grep",
         "hooks": [
           {
             "type": "command",
-            "command": "true"
+            "command": "node C:/projects/claude-course/claude-querys/queries/hooks/read_hook.js"
           }
         ]
       },
